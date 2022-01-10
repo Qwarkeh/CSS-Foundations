@@ -12,3 +12,12 @@ div {
 #title {
     background-color: red;
 }
+
+/* Grouping Selector */
+/* use comma-separted list */
+.read,
+.unread{
+    color: white;
+    background-color: black;
+}
+
