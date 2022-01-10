@@ -2,3 +2,13 @@
 div {
     color: rgb(115, 40, 185);
 } 
+
+/* Class Selector, select all elements within the class */
+.alert-text{
+    color: red;
+}
+
+/* ID Selector */
+#title {
+    background-color: red;
+}
