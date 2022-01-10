@@ -1,0 +1,31 @@
+/* Specificity */
+    /* Rule 2 is more specific because it is using more class selectors */
+    .subsection { /* Rule 1*/
+        color: blue;
+    }
+
+    .main .list { /* Rule 2 */
+        color: red;
+    }
+
+    /* Rule 1 below is more specific because ID beats class */
+    #subsection { /* Rule 1 */
+        color: blue;
+    }
+
+    .main2 .list2{ /* Rule 2 */
+        color: red;
+    }
+
+    /* Neither rule is using a more specific selector than the other */
+    /* Cascade then checks the amounts of each selector type */
+    /* Both have one ID selector, but rule 2 has more class selectors and wins */
+    #subsection .list { /* rule 1 */
+        background-color: yellow;
+        color: blue;
+    }
+
+    #subsection .main .list{ /* rule 2 */
+        color: red;
+    }
+
