@@ -1,6 +1,5 @@
 /* color and background examples */
-/*
-p {
+.p {
     /* hex example: */
     color: #1100ff;
 
@@ -10,6 +9,18 @@ p {
     /* hsl example: */
     color: hsl(15, 82%, 56%);
 }
-*/
 
 /* Typography Basics and text-align */
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: end;
+}
