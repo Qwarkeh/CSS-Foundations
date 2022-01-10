@@ -25,3 +25,10 @@ div {
 .subsection.header {
     color: red;
 }
+
+/* Descendant Combinator */
+.ancestor .contents {
+    /* some declarations */
+    /* .contents will only show when put under .ancestor (parent child) */
+}
+
