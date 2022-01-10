@@ -21,3 +21,7 @@ div {
     background-color: black;
 }
 
+/* Chaining Selectors */
+.subsection.header {
+    color: red;
+}
