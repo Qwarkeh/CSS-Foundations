@@ -24,3 +24,8 @@
     font-weight: bold;
     text-align: end;
 }
+
+img {
+    height: auto;
+    width: 100px;
+}
